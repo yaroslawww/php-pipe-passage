@@ -6,8 +6,6 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/?branch=master)
 
-
-
 ## Installation
 
 Install the package via composer:
@@ -46,6 +44,21 @@ $this->assertEquals('second test value', $entityObject->test2);
 $this->assertEquals('third test value', $entityObject->test3);
 $this->assertEquals('default', $entityObject->name);
 $this->assertEquals('web company', $entityObject->company);
+```
+
+Example of handler
+
+```injectablephp
+class ExamplePipeSection implements PipeSection {
+    
+    public function handle($entity, \Closure $next)
+    {
+        // There will be some functionality
+
+        return $next($entity);
+    }
+    
+}
 ```
 
 ## Credits
