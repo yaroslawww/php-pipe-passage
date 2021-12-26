@@ -2,6 +2,7 @@
 
 [![Packagist License](https://img.shields.io/packagist/l/yaroslawww/php-pipe-passage?color=%234dc71f)](https://github.com/yaroslawww/php-pipe-passage/blob/master/LICENSE.md)
 [![Packagist Version](https://img.shields.io/packagist/v/yaroslawww/php-pipe-passage)](https://packagist.org/packages/yaroslawww/php-pipe-passage)
+[![Total Downloads](https://img.shields.io/packagist/dt/yaroslawww/php-pipe-passage)](https://packagist.org/packages/yaroslawww/php-pipe-passage)
 [![Build Status](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/badges/build.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/build-status/master)
 [![Code Coverage](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/php-pipe-passage/?branch=master)
